@@ -6,28 +6,10 @@
     "revision": "0",
     "image": "flecs.azurecr.io/com.wibu.cmservice",
     "multiInstance": false,
-    "editor": "",
-    "args": [
-        "--launch-arg-1",
-        "--launch-arg-2=8000"
-    ],
-    "capabilities": [],
-    "conffiles": [
-        "default.conf:/etc/my-app/default.conf",
-        "default.conf:/etc/my-app/default.conf:ro",
-        "default.conf:/etc/my-app/default.conf:rw"
-    ],
-    "devices": [
-        "/dev/net/tun"
-    ],
-    "env": [
-        "MY_ENV=value"
-    ],
-    "ports": [
-        "12345:12345"
-    ],
+    "author": "WIBU-SYSTEMS AG",
+    "description": "Licensing server",
     "volumes": [
-        "my-app-etc:/etc/my-app",
-        "/var/lib/my-app:/var/lib/my-app"
-    ]
+        "codemeter_config:/etc/wibu/CodeMeter"
+    ],
+    "interactive": true
 }
