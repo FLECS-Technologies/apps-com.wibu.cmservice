@@ -2,4 +2,4 @@ ARG ARCH
 ARG VERSION
 ARG VARIANT
 
-FROM wibusystemska/codemeter:${VERSION}
+FROM wibusystems/codemeter:${VERSION}
